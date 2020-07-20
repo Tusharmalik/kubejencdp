@@ -17,7 +17,7 @@ ENV LD_LIBRARY_PATH /opt/rh/rh-nodejs8/root/usr/lib64
 ENV PATH /opt/rh/rh-nodejs8/root/usr/bin:/opt/app-root/src/node_modules/.bin/:/opt/app-root/src/.npm-global/bin/:/opt/app-root/src/bin:/opt/app-root/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 ENV NPM_CONFIG_PREFIX /opt/app-root/src/.npm-global
 
-EXPOSE 8080
+EXPOSE 8081
 
 USER root
 

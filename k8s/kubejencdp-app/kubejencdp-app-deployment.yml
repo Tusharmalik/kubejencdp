@@ -17,7 +17,7 @@ spec:
         imagePullPolicy: Always
         ports:
         - name: httpport
-          containerPort: 8080
+          containerPort: 8081
         env:
           - name: API_ENDPOINT
             value: "http://127.0.0.1:8082/"

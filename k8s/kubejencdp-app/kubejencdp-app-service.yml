@@ -7,9 +7,9 @@ metadata:
 spec:
   ports:
     - name: httpport
-      port: 8080
+      port: 8081
       protocol: TCP
-      targetPort: 8080
+      targetPort: 8081
   selector:
     app: __APP_NAME__
   sessionAffinity: None
